@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
       /* Reset default styles */
       * {
@@ -15,8 +15,10 @@
 
       /* Add custom styles */
       body {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         background-color: #f2f2f2;
+        color: #333;
+        line-height: 1.5;
       }
 
       .container {
@@ -27,14 +29,28 @@
 
       h1, h2, h3 {
         font-weight: bold;
-        color: #333;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 40px;
+        color: #008080;
+      }
+
+      h2 {
+        font-size: 32px;
+        color: #005454;
+      }
+
+      h3 {
+        font-size: 24px;
+        color: #008080;
       }
 
       p {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #666;
+        font-size: 18px;
         margin-bottom: 20px;
       }
 
@@ -69,6 +85,50 @@
       .btn:hover {
         background-color: #005454;
       }
+
+      /* Add custom styles for sections */
+      section {
+        margin-bottom: 40px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        position: relative;
+      }
+
+      section::before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #008080;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .section-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+      }
+
+      .section-list {
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 20px;
+      }
+
+      .section-list-item {
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 30px;
+      }
+
     </style>
   </head>
   <body>
