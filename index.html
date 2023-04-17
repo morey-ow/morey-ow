@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      /* Reset default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Add custom styles */
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1, h2, h3 {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #008080;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #008080;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #005454;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to my website</h1>
-    <p>This is my first website on GitHub Pages.</p>
+    <div class="container">
+      <header>
+        <h1>My Website</h1>
+      </header>
+      <main>
+        <h2>About Me</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Placeholder Image">
+        <p>Hi, I'm John Doe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper, risus eu malesuada rhoncus, lectus lectus consequat erat, eu sodales lorem nibh vel erat. Proin vel sapien euismod, congue nisi in, fermentum felis.</p>
+        <a href="#" class="btn">Learn More</a>
+      </main>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+      </footer>
+    </div>
   </body>
 </html>
