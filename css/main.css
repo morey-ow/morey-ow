@@ -3,7 +3,7 @@ body {
   width: 70%;
 }
 nav ul, footer ul {
-  font-family:'Palatino', 'Sans-Serif';
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
@@ -16,13 +16,12 @@ a {
   text-decoration: none;
   color: #999;
 }
-a:hover {
+a: hover {
   text-decoration: underline;
 }
 h1 {
   font-size: 3em;
-  font-family:'Palatino', 'Sans-Serif';
-}
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 p {
   font-size: 1.5em;
   line-height: 1.4eml
