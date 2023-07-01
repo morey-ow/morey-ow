@@ -1,7 +1,7 @@
 !DOCTYPE html>
 <html>
   <head>
-      <title>My Website</title>
+      <title>  {{page.title}} </title>
     <!-- link to the main style sheet -->
     <link rel='stylesheet' type='text/css' href='/css/main.css'>
   </head>
@@ -16,7 +16,11 @@
             
           </ul>        
       </nav>
-      <div class='container'><!-- /.container -->
+      <div class='container'>
+        
+        {{content}}
+        
+      </div><!-- /.container -->
 
 
         
