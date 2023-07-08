@@ -6,7 +6,7 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML=`
         <style>
-                nav {
+        nav {
           display: block;
           align-items: center;
           justify-content: center;
@@ -28,11 +28,11 @@ class MyHeader extends HTMLElement {
 
             
 
-            li a {
+            .myelement {
 
                 font-weight: 700;
                 margin: 0 0px;
-                color: Purple;
+                color: Blue;
                 padding: 26px 26px;
                 text-decoration: none;
                 border-right: 1px solid #bbb;
@@ -47,12 +47,12 @@ class MyHeader extends HTMLElement {
             <header>
                     <nav>
                         <ul>
-                            <li>  <a href="index.html"> Home </a> </li>
-                            <li> <a href="teaching.html" >Teaching </a> </li>
-                            <li> <a href="publications.html" class="myelement">Publications </a> </li>
+                            <li>  <a href="index.html" class="myelement"> Home </a> </li>
+                            <li> <a href="teaching.html"  class="myelement">Teaching </a> </li>
+                            <li> <a href="publications.html"  class="myelement">Publications </a> </li>
                             <li> <a href="talks.html" class="myelement">Talks </a> </li>
 
-                            <li> <a href="https://www.dropbox.com/s/imwq0mluil2pmll/cv.pdf?dl=0" class="myelement">CV </a> </li>
+                            <li> <a href="about.html"  class="myelement"> About </a> </li>
 
                         </ul>
                     </nav>
