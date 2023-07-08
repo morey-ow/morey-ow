@@ -4,10 +4,26 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="components/header.js" type="text/javascript" defer></script>
     <my-header> </my-header>
+        <style>
+            li {
+                color: blue;
+            }
+            .term {
+                font-size: 24px;
+                color: black;
+                font-weight:bold ;
+            }
+        </style>
+
 
     </head>
-
-<ul> <p>Summer 2023 </p>
+<body>
+<ul> <p class="term">Summer 2023 </p>
 <li>CS 2521 </li>
 </ul>
+<script>var rootFontSize = window.getComputedStyle(document.documentElement);
+    console.log(rootFontSize);
+    </script>
+
+</body>
 </html>
