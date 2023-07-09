@@ -31,6 +31,7 @@ class MyHeader extends HTMLElement {
             .myelement {
 
                 font-weight: 700;
+                font-family: Palatino, Arial;
                 margin: 0 0px;
                 color: Blue;
                 padding: 26px 26px;
@@ -51,6 +52,7 @@ class MyHeader extends HTMLElement {
                             <li> <a href="teaching.html"  class="myelement">Teaching </a> </li>
                             <li> <a href="publications.html"  class="myelement">Publications </a> </li>
                             <li> <a href="talks.html" class="myelement">Talks </a> </li>
+                            <li> <a href="portfolio.html" class="myelement">Portfolio </a> </li>
 
                             <li> <a href="about.html"  class="myelement"> About </a> </li>
 
