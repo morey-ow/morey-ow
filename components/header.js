@@ -31,7 +31,7 @@ class MyHeader extends HTMLElement {
             .myelement {
 
                 font-weight: 700;
-                font-family: Palatino, Arial;
+                font-family: Andale Mono, Palatino, Arial;
                 margin: 0 0px;
                 color: Blue;
                 padding: 26px 26px;

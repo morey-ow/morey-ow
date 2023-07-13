@@ -1,6 +1,6 @@
 body {
   background-color: blanchedalmond;
-  font-family:'Palatino', 'Sans-Serif';
+  font-family: 'Geneva', 'Palatino', 'Sans-Serif';
   clear: left;
   margin: 20px;
 }
@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-size: 3em;
-font-family: 'Palatino', 'Sans-Serif';
+font-family: 'Geneva', 'Palatino', 'Sans-Serif';
 }
 
 p {
